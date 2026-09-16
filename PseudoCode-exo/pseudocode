@@ -1,9 +1,10 @@
 
-UserInput: entrée de l'utilisateur
+UserNumerateur: entrée de l'utilisateur (numerateur)
+UserDénominateur: entrée de l'utilisateur (dénominateur)
 
 WallisIntegrals, Intégrale de Wallis calculée
 
-demande à l'utilisateur UserInput
+demande à l'utilisateur UserNumerateur & UserDénominateur
 
 Si UserInput est correct:
     Calcule WallisIntegrals
