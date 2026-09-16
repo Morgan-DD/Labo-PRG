@@ -1,0 +1,13 @@
+
+UserInput: entrée de l'utilisateur
+
+WallisIntegrals, Intégrale de Wallis calculée
+
+demande à l'utilisateur UserInput
+
+Si UserInput est correct:
+    Calcule WallisIntegrals
+Si UserInput est faux:
+    Indiquer le problème
+
+Fin du programe
