@@ -1,0 +1,26 @@
+OUTPUT "Ceci est un program pour calculer un therme de wallis"
+
+OUTPUT "Veulliez entrer un numérateur"
+INPUT numerateur
+
+OUTPUT "Veulliez entrer un dénominateur"
+INPUT denominateur
+
+IF (0 < numerateur AND numerateur MOD = 0) AND (0 < denominateur AND denominateur MOD = 1)
+    DECLARE nextNumerateur
+    DECLARE nextDenominateur
+
+    IF numerateur < denominateur
+        nextNumerateur <- numerateur + 2
+        nextDenominateur <- denominateur
+    ELSE
+        nextNumerateur <- numerateur
+        nextDenominateur <- denominateur + 1
+
+    DECLARE wallisProduct <- (numerateur / denominateur) * (nextNumerateur / nextDenominateur)
+
+    OUTPUT "Votre produdit de Wallis est : " + wallisProduct
+ELSE
+    OUTPUT "La combinaison de numérateur/dénominateur que vous avez entré n'est pas correct"
+
+OUTPUT "Fin du program"
