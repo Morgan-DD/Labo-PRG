@@ -6,7 +6,7 @@ INPUT numerateur
 OUTPUT "Veulliez entrer un dénominateur"
 INPUT denominateur
 
-IF (0 < numerateur AND numerateur MOD = 0) AND (0 < denominateur AND denominateur MOD = 1)
+IF (0 < numerateur AND numerateur MOD = 0) AND (0 < denominateur AND denominateur MOD = 1) AND (|numerateur - denominateur| = 1)
     DECLARE nextNumerateur
     DECLARE nextDenominateur
 
